@@ -1,7 +1,8 @@
 ﻿{
-  "latestVersion": "0.0.6",
+  "latestVersion": "0.0.7",
   "minimumVersion": "0.0.5",
   "downloadUrl": "https://github.com/MeH0y/ModdedEvolveLauncherUpdates/releases/download/Launcher_Update/ModdedEvolveLauncher.zip",
   "changelogUrl": "https://github.com/MeH0y/ModdedEvolveLauncherUpdates/releases/tag/Launcher_Update",
+  "sha256": "435E0947C859EC4DAE8E902704581CB33B96F31EBFA034F8A7D33CC48EC9F3EE",
   "message": "Launcher update available."
 }
