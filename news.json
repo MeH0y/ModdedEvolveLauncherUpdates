@@ -1,0 +1,9 @@
+﻿{
+  "title": "Launcher Prototype Complete",
+  "body": "Background video, automatic detection, custom install paths, and Evolve launching are now working.",
+  "image": "",
+  "buttonText": "READ MORE",
+  "buttonLink": "https://github.com/YOUR_USERNAME/ModdedEvolveLauncherUpdates",
+  "comingNextTitle": "Coming Next",
+  "comingNextBody": "Next we will add the self-updater helper so launcher updates can install cleanly."
+}
