@@ -15,21 +15,25 @@ After this repo is pushed to GitHub, the launcher can read `version.json` from:
 https://raw.githubusercontent.com/MeH0y/ModdedEvolveLauncherUpdates/main/version.json
 ```
 
-Replace `MeH0y` with the GitHub account or organization that owns the repo.
-
 ## Release Flow
 
 1. Build the launcher as x64.
 2. Zip the launcher output as `ModdedEvolveLauncher.zip`.
-3. Create a GitHub release.
-4. Use a tag like `v0.0.6`.
+3. Create or update the GitHub release.
+4. Use the tag `Launcher_Update` for the current update channel.
 5. Upload `ModdedEvolveLauncher.zip` as the release asset.
-6. Update `version.json` so `latestVersion`, `downloadUrl`, and `changelogUrl` match the new release.
+6. Update `version.json` so `latestVersion`, `downloadUrl`, and `changelogUrl` match the release.
 
-Example release asset URL:
+Current release page:
 
 ```text
-https://github.com/MeH0y/ModdedEvolveLauncherUpdates/releases/download/v0.0.6/ModdedEvolveLauncher.zip
+https://github.com/MeH0y/ModdedEvolveLauncherUpdates/releases/tag/Launcher_Update
+```
+
+Current release asset URL:
+
+```text
+https://github.com/MeH0y/ModdedEvolveLauncherUpdates/releases/download/Launcher_Update/ModdedEvolveLauncher.zip
 ```
 
 ## Example version.json
@@ -38,8 +42,8 @@ https://github.com/MeH0y/ModdedEvolveLauncherUpdates/releases/download/v0.0.6/Mo
 {
   "latestVersion": "0.0.6",
   "minimumVersion": "0.0.5",
-  "downloadUrl": "https://github.com/MeH0y/ModdedEvolveLauncherUpdates/releases/download/v0.0.6/ModdedEvolveLauncher.zip",
-  "changelogUrl": "https://github.com/MeH0y/ModdedEvolveLauncherUpdates/releases/tag/v0.0.6",
+  "downloadUrl": "https://github.com/MeH0y/ModdedEvolveLauncherUpdates/releases/download/Launcher_Update/ModdedEvolveLauncher.zip",
+  "changelogUrl": "https://github.com/MeH0y/ModdedEvolveLauncherUpdates/releases/tag/Launcher_Update",
   "message": "Launcher update available."
 }
 ```
