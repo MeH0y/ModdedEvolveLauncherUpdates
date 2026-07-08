@@ -12,10 +12,10 @@ Static update files for the Modded Evolve Launcher.
 After this repo is pushed to GitHub, the launcher can read `version.json` from:
 
 ```text
-https://raw.githubusercontent.com/YOUR_USERNAME/ModdedEvolveLauncherUpdates/main/version.json
+https://raw.githubusercontent.com/MeH0y/ModdedEvolveLauncherUpdates/main/version.json
 ```
 
-Replace `YOUR_USERNAME` with the GitHub account or organization that owns the repo.
+Replace `MeH0y` with the GitHub account or organization that owns the repo.
 
 ## Release Flow
 
@@ -29,7 +29,7 @@ Replace `YOUR_USERNAME` with the GitHub account or organization that owns the re
 Example release asset URL:
 
 ```text
-https://github.com/YOUR_USERNAME/ModdedEvolveLauncherUpdates/releases/download/v0.0.6/ModdedEvolveLauncher.zip
+https://github.com/MeH0y/ModdedEvolveLauncherUpdates/releases/download/v0.0.6/ModdedEvolveLauncher.zip
 ```
 
 ## Example version.json
@@ -38,8 +38,8 @@ https://github.com/YOUR_USERNAME/ModdedEvolveLauncherUpdates/releases/download/v
 {
   "latestVersion": "0.0.6",
   "minimumVersion": "0.0.5",
-  "downloadUrl": "https://github.com/YOUR_USERNAME/ModdedEvolveLauncherUpdates/releases/download/v0.0.6/ModdedEvolveLauncher.zip",
-  "changelogUrl": "https://github.com/YOUR_USERNAME/ModdedEvolveLauncherUpdates/releases/tag/v0.0.6",
+  "downloadUrl": "https://github.com/MeH0y/ModdedEvolveLauncherUpdates/releases/download/v0.0.6/ModdedEvolveLauncher.zip",
+  "changelogUrl": "https://github.com/MeH0y/ModdedEvolveLauncherUpdates/releases/tag/v0.0.6",
   "message": "Launcher update available."
 }
 ```
